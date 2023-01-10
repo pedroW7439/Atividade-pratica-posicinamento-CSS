@@ -41,151 +41,94 @@ body {
     top: 6.25vh;
 }
 /* Atividade 2 */
-.bloco1 {
+.blocos {
     width: 35vh;
     height: 35vh;
     background-color: black;
     position: fixed;
+}
+.bloco1 {
     top: 0;
     left: 0;
 }
 .bloco2 {
-    width: 35vh;
-    height: 35vh;
-    background-color: black;
-    position: fixed;
     top: 0;
     right: 0;
 }
 .bloco3 {
-    width: 35vh;
-    height: 35vh;
-    background-color: black;
-    position: fixed;
     bottom: 0;
     left: 0;
 }
 .bloco4 {
-    width: 35vh;
-    height: 35vh;
-    background-color: black;
-    position: fixed;
     bottom: 0;
     right: 0;
 }
 /* Atividade 3 */
-.texto1 {
+.textos {
     float: left;
     background-color: black;
     color: lightgray;
     text-align: right;
     text-transform: uppercase;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.texto1 {
     border-radius: 25px;
     padding: 15px;
     margin: 30px;
 }
 .texto2 {
-    float: left;
-    background-color: black;
-    color: lightgray;
-    text-transform: uppercase;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 30px;
     padding: 15px;
     height: 200px;
     overflow-y: scroll;
 }
 /* Atividade 4 */
-.ex4 {
-    color: white;
-}
-.caixa1 {
+.caixas {
     background-color: black;
     height: 19vh;
     width: 19vh;
-    margin: 0;
+    position: absolute;
+}
+.caixa1 {
     top: 0;
     left: 0;
     position: fixed;
 }
 .caixa2 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     left: 20vh;
-    position: absolute;
 }
 .caixa3 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     left: 40vh;
-    position: absolute;
 }
 .caixa4 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     top: 20vh;
-    position: absolute;
 }
 .caixa5 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     top: 20vh;
     left: 20vh;
-    position: absolute;
 }
 .caixa6 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     top: 40vh;
-    position: absolute;
 }
 .caixa7 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     bottom: 0;
     right: 0;
     position: fixed;
 }
 .caixa8 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     right: 20vh;
-    position: absolute;
 }
 .caixa9 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     right: 40vh;
-    position: absolute;
 }
 .caixa10 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     bottom: 20vh;
-    position: absolute;
 }
 .caixa11 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     bottom: 20vh;
     right: 20vh;
-    position: absolute;
 }
 .caixa12 {
-    background-color: black;
-    height: 19vh;
-    width: 19vh;
     bottom: 40vh;
-    position: absolute;
 }
